@@ -64,23 +64,109 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Serialized is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
+Serialized provides on‑chain market data and token security APIs. It offers real‑time price, metadata, wallet activity, and AI‑driven token code analysis across multiple EVM and Solana chains. The platform serves trading apps, terminals, and wallets with high‑performance REST and WebSocket endpoints, detailed documentation, and flexible pricing plans for developers and enterprises.
 
-**Areas:** Company
+**Areas:** Company · Onchain · MarketData · TokenSecurity · API · Data
 
 ## Serialized on APIs.io
 
 Everything profiled for Serialized is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/serialized-xyz/](https://apis.io/providers/serialized-xyz/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Serialized Data API](https://apis.io/apis/serialized-xyz/serialized-data-api/) — On-chain market data API providing asset, token, and price information across multiple chains.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Serialized Xyz Webhooks](https://apis.io/asyncapis/serialized-xyz/serialized-xyz-webhooks/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Serialized Xyz Context](https://apis.io/jsonld/serialized-xyz/serialized-xyz-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Serialized API Rules](https://apis.io/rules/serialized-xyz/serialized-xyz-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Serialized Xyz Authentication](https://apis.io/security/serialized-xyz/serialized-xyz-authentication/)
+- [Serialized Xyz Domain Security](https://apis.io/security/serialized-xyz/serialized-xyz-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Serialized Xyz Plans Pricing](https://apis.io/plans/serialized-xyz/serialized-xyz-plans-pricing/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://serialized.xyz)
+- [Documentation](https://docs.serialized.xyz)
+- [Getting started](https://docs.serialized.xyz/quickstart)
+- [API reference](https://docs.serialized.xyz)
+- [Pricing](https://docs.serialized.xyz/plans)
+- [Sign up](https://serialized.xyz/signup)
+- [Support](https://docs.serialized.xyz/support)
+- [Terms of service](https://serialized.xyz/terms)
+- [Privacy policy](https://serialized.xyz/privacy)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/serialized-xyz/](https://apis.io/providers/serialized-xyz/).
+**Kin Score 58.7** — strong · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 53.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 73.2 |
+
+**Agent readiness 48.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/serialized-xyz/](https://apis.io/providers/serialized-xyz/).
 
 ## How this profile is made
 
